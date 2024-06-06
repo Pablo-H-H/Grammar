@@ -105,6 +105,7 @@ Examples of incorrect sentences:
 
 ## Analysis
 
+### Time Complexity
 The time complexity of a parser algorithm depends largely on the structure of the grammar and the approach used to perform the parsing.
 
 In the case of the parser we have used, nltk's RecursiveDescentParser, time complexity is generally measured in terms of the length of the input (the length 
@@ -114,7 +115,14 @@ The time complexity of a parse is typically linear in the length of the input, t
 the input string. This is because at each step of the analysis, the parser steps through the input tokens and makes a decision based solely on the current non-
 terminal symbol and the current input token.
 
+### Why should you use a grammar
+This parser is at the highest level of Chomsky's hierarchy, known as type 0 grammars or recursively enumerable grammars. These grammars can generate any language 
+that can be recognized by a Turing machine, meaning they can represent the syntactic structure of extremely complex and expressive languages. For this reason, it 
+is better to use this type of programming compared to traditional programming which can be more confusing and time-consuming.
 
 ## References
 
 Guide to the parser. (s. f.). Python Developer’s Guide. https://devguide.python.org/internals/parser/index.html
+
+Fitch, W. T. (2014). Toward a computational framework for cognitive biology: Unifying approaches from cognitive neuroscience and comparative cognition. Physics Of 
+Life Reviews, 11(3), 329-364. https://doi.org/10.1016/j.plrev.2014.04.005
