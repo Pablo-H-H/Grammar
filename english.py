@@ -29,10 +29,7 @@ parser = nltk.ChartParser(grammar)
 simple_sentences = [
     "the happy dog chases the cat under the table",
     "the cat chases the mouse",
-    "a dog sees the table",
-    "the big dog quickly finds the cat",
-    "the mouse under the table silently sees the dog",
-    "the cat on the table chases the mouse"
+    "a dog sees the table"
 ]
 
 # Parse the sentence and print the trees
