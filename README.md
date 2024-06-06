@@ -115,7 +115,7 @@ The time complexity of a parse is typically linear in the length of the input, t
 the input string. This is because at each step of the analysis, the parser steps through the input tokens and makes a decision based solely on the current non-
 terminal symbol and the current input token.
 
-### Why should you use a grammar
+### Why should you use a grammar over traditional programming
 This parser is at the highest level of Chomsky's hierarchy, known as type 0 grammars or recursively enumerable grammars. These grammars can generate any language 
 that can be recognized by a Turing machine, meaning they can represent the syntactic structure of extremely complex and expressive languages. For this reason, it 
 is better to use this type of programming compared to traditional programming which can be more confusing and time-consuming.
