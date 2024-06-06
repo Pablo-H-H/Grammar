@@ -1,8 +1,11 @@
 Sentences that work with the program:
 
-the teacher scored the homework
-the dog ate the homework
-the teache saw the dog in the school
-the dog saw the homework
-the teacher scored the student in the school
-the dog figthed with the teacher
+  "the big dog quickly finds the cat"
+  "the mouse under the table silently sees the dog"
+  "the cat on the table chases the mouse"
+
+Sentences that dont work with the program:
+
+  "the big big dog finds the cat"
+  "the mouse under the table on silently sees the cat"
+  "the cat on under the mouse sees the dog"
